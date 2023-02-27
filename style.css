@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+
+@font-face {
+    font-family: 'neue-haas-black';
+    src: url('/fonts/NeueHaasDisplayBlack.ttf');
+}
+
+@font-face {
+    font-family: 'neue-haas-bold';
+    src: url('/fonts/NeueHaasDisplayBold.ttf');
+}
+
+@font-face {
+    font-family: 'neue-haas-medium';
+    src: url('/fonts/NeueHaasDisplayMedium.ttf');
+}
+
+@font-face {
+    font-family: 'minion-pro-medium';
+    src: url('/fonts/MinionProMedium.otf');
+}
+
+@font-face {
+    font-family: 'acumin-pro';
+    src: url('/fonts/AcuminPro.otf');
+}
+
+
+@font-face {
+    font-family: 'itc-avant-garde-gothic-medium';
+    src: url('/fonts/ITCAvantGardeGothicMedium.otf');
+}
+
+@font-face {
+    font-family: 'charter';
+    src: url('/fonts/Charter.otf');
+}
+
+@font-face {
+    font-family: 'colfax-ai-bold';
+    src: url('/fonts/ColfaxAIBold.otf');
+}
+
+header {
+    width: 100%;
+    display: flex;
+    background-color: #000;
+    justify-content: space-between;
+}
+
+
+.header-main {
+    font-family: "neue-haas-medium";
+    line-height: 1.4em;
+    letter-spacing: 0em;
+    font-size: calc((2 - 1) * 1.2vw + 1rem);
+    padding: 35px 75px;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+    padding: 70px 40px 0 75px;
+}
+
+.header-links {
+    text-decoration: none;
+    padding: 15px;
+    font-family: "colfax-ai-bold";
+    font-size: 0.7666666667rem;
+    letter-spacing: 0.05em;
+    line-height: 1.4;
+}
+
+.hero-container {
+    background-image: url("image.jpg");
+    background-size: cover;
+    width: 100%;
+    padding-top: 180px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    padding-left: 26%;
+    font-family: "neue-haas-medium";
+    font-size: calc((6.5 - 1) * 1.2vw + 0.5rem);
+    line-height: calc(1.4 * (1 + (1 - 6.5)/25));
+    letter-spacing: 0.5px;
+
+}
+
+.about-container {
+    padding: 250px 0 0 120px;
+    background-color: #012622;
+    display: flex;
+    justify-content: space-around;
+}
+
+.portrait {
+    height: 400px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.about-text {
+    opacity: 0.8;
+    width: 50%;
+    font-family: "charter";
+    font-size: 2em;
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+}
+
+.imp-about-text {
+    padding: 33px 0 33px 0;
+    color: #df4735;
+    opacity: 1;
+}
+
+.socials {
+    padding-bottom: 100px;
+}
+
+.social-icons {
+    text-decoration: none;
+    font-size: 28px;
+    padding: 0 20px 0 1px;
+}
+
+.project-container {
+    padding-top: 200px;
+    background: #e7530b;
+}
+
+.project-arrow {
+    font-size: 34px;
+    padding-left: 30px;
+}
+
+.fa-arrow-right {
+    color: #6c4289;
+}
+
+.proj-1 {
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.proj-2 {
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.proj-3 {
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.proj-no {
+    padding-left: 15%;
+    font-size: calc((1.1 - 1) * 1.2vw + 1rem);
+    font-family: minion-pro-medium;
+    letter-spacing: .02em;
+    line-height: 1.8;
+}
+
+.proj-head {
+    width: 45%;
+    font-size: calc((2.8 - 1) * 1.2vw + 1rem);
+    line-height: calc(1.4 * (1 + (1 - 6.5)/25));
+    font-family: "neue-haas-medium";
+}
+
+.research-container {
+    padding-top: 180px;
+    background-color: #fefae0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.research-head {
+    color: #000;
+    font-family: "neue-haas-medium";
+    font-size: calc((4.8 - 1) * 1.2vw + 1rem);
+    line-height: calc(1.4 * (1 + (1 - 6.5)/25));
+}
+
+.research-text {
+    color: #000;
+    padding-top: 100px;
+    text-align: center;
+    width: 70%;
+    font-family: "charter";
+    font-size: 2em;
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+}
+
+footer {
+    background-color: #fefae0;
+    padding: 0 0 30px 10%;
+}
+
+.footer-text {
+    color: #000;
+    font-family: "colfax-ai-bold";
+    font-size: 0.8666666667rem;
+    letter-spacing: 0.07em;
+    line-height: 1.4;
+}
